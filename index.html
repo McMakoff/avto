@@ -220,25 +220,13 @@
 	<script type="text/javascript" src="js/slide.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script>
-		$(document).ready(function(){
-			$('.single-item_1').slick({
-			  dots: true,
-			  infinite: true,
-			  speed: 500,
-			  fade: true,
-			  arrows: false,
-			  cssEase: 'linear'
-			});
-		});
-	</script>
-	<script>
 		$('.slide').slick({
 		  dots: true,
 		  infinite: true,
 		  speed: 500,
 		  fade: true,
 		  cssEase: 'linear',
-		  autoplay: false,
+		  autoplay: true,
   		  autoplaySpeed: 2000,
   		  pauseOnHover:false,
   		  pauseOnFocus:false,
